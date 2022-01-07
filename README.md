@@ -44,7 +44,7 @@ python hpd.py --dataset mille_lacs --optimizer_val 2 --data_dir ../datasets/ --u
 
 ### Using the code for Hybrid Modeling:
 
-The **HPD model** is same as the PGNN0, i.e., the physics-loss is not used $\lambda_{PHY}=0$. To run the HPD model use the following script '\hybrid\hpd.py'
+The **HPD model** is same as the PGNN0, i.e., the physics-loss is not used ![](https://render.githubusercontent.com/render/math?math=\lambda_{PHY}=0). To run the HPD model use the following script '\hybrid\hpd.py'
 Example for Lake Mille Lacs with Adam Optimizer:
 ```
 cd hybrid
